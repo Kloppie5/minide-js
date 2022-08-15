@@ -8,3 +8,4 @@ if len(sys.argv) != 2:
 
 parser = Parser()
 parser.parse_file(sys.argv[1])
+parser.save_file(sys.argv[1].replace(".js", ".uldl"))
